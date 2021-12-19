@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Nicole Stewart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="navigation">
+        <div class="logo">
+            <img src="images/Logo.png">
+        </div>
+        <div class="name">
+            Nicole Stewart
+        </div>
+        <nav class="nav-links">
+            <a href="#">Work</a>
+            <a href="#">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <div class="content">
+            <div class="left">
+                <img src="images/Nicole 1.png" width=500px height=500px alt="Nicole smiles brightly and confidently">
+            </div>
+            <div class="right">
+            <h1>Hi, I’m Nicole</h1>
+            <h2>I believe that empathy and good design make the world a better place.</h2>
+            <p>I’m a media planner-turned-UX-designer who’s passionate about climate justice and sustainability.</p>
+            <p>My design process thrives at the intersection of data and creativity, using research and insights
+                to thoughtfully solve problems from a user-centered perspective.</p>
+            <button>View My Resume</button>
+            </div>
+        </div>
+    </section>
+
+<!--  My UX Skills section coded using CSS flex -->
+    <section class="mySkills">
+        <h2 class="sectionHeader">My UX Skills</h2>
+        <div class="flexContainer">
+            <div>
+                <img src="images/icons8_spy.png" alt="Spy">
+                <h3>Research + Analytics</h3>
+                <p>User research, competitive analysis, heuristic analysis, insight synthesis, usability testing</p>
+            </div>
+            <div>
+                <img src="images/pepicons_paint-pallet.png" alt="An artist's pallet">
+                <h3>Content Strategy</h3>
+                <p>Audience definition, information architecture</p>
+            </div>
+            <div>
+                <img src="images/la_pencil-ruler.png" alt="pencil">
+                <h3>Prototyping + Wireframing</h3>
+                <p>Prototyping, wireframing, interaction design</p>
+            </div>
+        </div>
+    </section>
+
+<!-- My Work Section Constructed using CSS Grid -->
+    <section class="myWork">
+        <h2 class="sectionHeader">My Work</h2>
+        <div class="workGrid">
+            <div class="workImage">
+                <img src="images/IMG_6594 1.png" alt="The NYC skyline">
+            </div>
+            <div class="workContent">
+                <h3>Wanderlist</h3>
+                <p>Wanderlist is an app for inspiring collaborative trip planning.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Form -->
+    <h1 class="contact">Let's Work Together</h1>
+    <p>I’m open to work, and I’d love to hear from you. Send me a message and say hello.
+
+        Or, email me at: stewart.nicolee@gmail.com.</p>
+    <form class="contact">
+        <h5>Name</h5>
+        <input type=text>
+        <h5>Email Address</h5>
+        <input type=text>
+        <h5>Message</h5>
+        <input type=text>
+        <br><br><br>
+        <button id="myBtn">Send It</button>
+
+    </form> 
+     <!-- Trigger/Open The Modal -->
+
+    <section class="footer">
+    <div class="footer">
+        <a href="#">Work</a>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+    </div>
+    </section>
+
+</body>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1>thank you for your message!</h1>
+    <p>I will get back to you soon. Have a lovely day!</p>
+  </div>
+
+</div>
+
+<script src="js/index.js"></script>
+</html>
